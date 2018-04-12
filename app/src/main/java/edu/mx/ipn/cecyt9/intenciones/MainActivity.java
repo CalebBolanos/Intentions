@@ -30,9 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void googleMaps(View maps)
     {
-        Intent intent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("geo:19.453659, -99.175298"));
-        startActivity(intent);
+        Uri ubicacion = Uri.parse("google.streetview:cbll=19.6622628,-99.2201554");
+        Intent mapa = new Intent(Intent.ACTION_VIEW, ubicacion);
+        mapa.setPackage("com.google.android.apps.maps");
+        startActivity(mapa);
     }
 
     public void tomarFoto(View maps)

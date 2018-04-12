@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Intenciones.iml" filepath="$PROJECT_DIR$/Intenciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Intentions.iml" filepath="$PROJECT_DIR$/Intentions.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
